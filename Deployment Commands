@@ -1,0 +1,17 @@
+# Initialize Git repository
+git init
+git add .
+git commit -m "🔰 SAFEWAY GUARDIAN v1.0.0 - SG QUANTUM OS with Elemental Framework"
+
+# Create GitHub repository and push
+gh repo create sg-quantum-os --public --description "Quantum OS with Five Elements Balance"
+git push origin main
+
+# Install package locally
+pip install -e .
+
+# Run tests
+pytest tests/
+
+# Generate documentation
+cd docs && make html
