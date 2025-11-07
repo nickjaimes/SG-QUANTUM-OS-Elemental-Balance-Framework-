@@ -1,0 +1,4 @@
+from safeway_guardian.examples import ecommerce_platform
+
+platform = ecommerce_platform.QuantumEcommercePlatform()
+result = platform.handle_black_friday_sale()
