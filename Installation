@@ -1,0 +1,3 @@
+git clone https://github.com/nicolas-santiago/sg-quantum-os.git
+cd sg-quantum-os
+pip install -r requirements.txt
