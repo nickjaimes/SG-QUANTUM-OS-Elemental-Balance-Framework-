@@ -1,0 +1,4 @@
+from safeway_guardian.examples import financial_system
+
+trading_engine = financial_system.QuantumTradingEngine()
+trading_engine.execute_high_frequency_trading()
