@@ -1,0 +1,7 @@
+# Run all tests
+pytest tests/
+
+# Test specific elements
+pytest tests/test_wood_autoscaling.py
+pytest tests/test_fire_circuit_breaker.py
+pytest tests/test_elemental_balance.py
